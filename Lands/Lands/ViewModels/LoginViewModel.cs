@@ -1,6 +1,4 @@
-﻿
-
-namespace Lands.ViewModels
+﻿namespace Lands.ViewModels
 {
     using GalaSoft.MvvmLight.Command;
     using System.Windows.Input;
@@ -54,6 +52,9 @@ namespace Lands.ViewModels
         {
             this.IsRemembered = true;
             this.IsEnabled = true;
+
+            this.Email = "gdelacruz@outlook.com";
+            this.Password = "1234";
 
         }
         #endregion
